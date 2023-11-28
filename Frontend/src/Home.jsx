@@ -28,7 +28,7 @@ function Home() {
     };
 
     const fetch = async () => {
-        const { data } = await axios.get("https://high-low-five.vercel.app/getcard")
+        const { data } = await axios.get("https://high-low-game-backend.vercel.app/getcard")
         setimage(data[0].image)
         result(data[0].value)
         console.log("object", data[0].value)
