@@ -110,7 +110,7 @@ const styles = {
         backgroundColor: '#f0f0f0',
         borderRadius: '10px',
         boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-        height: '88vh'
+        height: '86vh'
     },
     buttondisable:{
         padding: '10px',
