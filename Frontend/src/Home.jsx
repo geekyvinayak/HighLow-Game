@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import axios from 'axios';
-import Timer from './Timer';
 import Countdown from 'react-countdown';
 
 function Home() {
